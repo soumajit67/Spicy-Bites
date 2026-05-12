@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Suggestions</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <nav class="navbar">
+      <a href="food.html" class="nav-logo">Spicy<span>Bites</span></a>
+
+
+        <div class="nav-right">
+            <i class="ri-search-line"></i>
+            <i class="ri-user-line"></i>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Your Cart</h2>
+        <div class="cart-section">
+            <div class="order-box">
+                <h3>Order Details</h3>
+                <hr>
+                <div class="order-content">
+                   <div id="cart-products" class="cart-list"></div>
+                </div>
+            </div>
+
+            <div class="price-box">
+                <h3>Price Details</h3>
+                <div class="price-row">
+                    <span>Price</span>
+                    <span id="subtotal">₹0</span>
+                </div>
+                <div class="price-row">
+                    <span>Discount</span>
+                    <span id="discount">₹0</span>
+                </div>
+                <div class="price-row">
+                    <span>Delivery Charges</span>
+                    <span>FREE</span>
+                </div>
+                <hr>
+                <div class="price-row total">
+                    <span>Total</span>
+                    <span id="total">₹0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="continue">Continue Shopping</button>
+            <button class="checkout">Checkout</button>
+        </div>
+    </div>
+
+    <script type="module" src="cart.js"></script>
+</body>
+</html>
