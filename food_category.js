@@ -1,160 +1,230 @@
 export const food = {
   "Veg": [
     {
+      id: 1,
       name: "Paneer Butter Masala",
       price: "₹250",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://cdn.tasteatlas.com/images/dishes/ceff65c140064d6285fc3814534a349b.jpg?w=1476&h=830",
     },
     {
+      id: 2,
       name: "Veg Biryani",
       price: "₹180",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://cookingfromheart.com/wp-content/uploads/2020/10/Avakaya-Biryani-4.jpg",
     },
     {
+      id: 3,
       name: "Vegetarian Thali",
       price: "₹210",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://eastindianrecipes.net/wp-content/uploads/2022/09/How-to-Make-North-Indian-Thali-Vegetarian-7-500x500.jpg",
     },
     {
+      id: 4,
       name: "Pav Bhaji",
       price: "₹110",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://assets.bonappetit.com/photos/63cb14735125107865c0fe8f/1:1/w_2560%2Cc_limit/012023-pav-bhaji-lede.jpg",
     },
     {
+      id: 5,
       name: "Vegetable Pulao",
       price: "₹149",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://www.whiskaffair.com/wp-content/uploads/2019/05/Veg-Pulao-1-3.jpg",
     },   
     {
+      id: 6,
       name: "Mixed Vegetable Paratha",
       price: "₹45",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://static.toiimg.com/thumb/53721534.cms?imgsize=315238&width=800&height=800",
     },         
     {
+      id: 7,
       name: "Veg Noodle",
       price: "₹120",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/veg-noodles-vegetable-noodles-recipe.jpg",
     }, 
     {
+      id: 8,
       name: "Dal Makhani",
       price: "₹170",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://www.umami.recipes/api/image/recipes/Tc3VqCkMqD1ZhFgkNVw3/images/8N59Tyuz6qBUlgmL3HF0DX?w=3840&q=75",
     },    
   ],
   "Non Veg": [
     {
+      id :9,
       name: "Chicken Biryani",
       price: "₹220",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg",
     },
     {
+      id: 10,
       name: "Non Veg Thali",
       price: "₹199",
-      image: "https://www.champaranmeathousedaman.com/public/images/products/1732279849-non-veg-thali.webp",
-    },    {
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
+      image: "https://akbarsvancouver.com/wp-content/uploads/2025/04/Akbars-Shahi-Thali-Non-Veg.jpg",
+    },
+    {
+      id: 11,
       name: "Chilli Paneer",
       price: "₹110",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/chilli-paneer-recipe.jpg",
-    },    {
+    },
+    {
+      id: 12,
       name: "Mutton Curry",
       price: "₹249",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://vismaifood.com/storage/app/uploads/public/86b/0bc/82c/thumb__700_0_0_0_auto.jpg",
     },    {
+      id: 12,
       name: "Tandoori Chicken kabab",
       price: "₹220",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://simshomekitchen.com/wp-content/uploads/2022/04/tandoori-skewers.png",
     },    
     {
+      id: 13,
       name: "Butter Chicken",
       price: "₹260",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://images.immediate.co.uk/production/volatile/sites/30/2021/02/butter-chicken-ac2ff98.jpg?quality=90&resize=440,400",
     },
     {
+      id: 14,
       name: "chilli chicken",
       price: "₹220",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://theyummydelights.com/wp-content/uploads/2022/07/chilli-chicken-dry.jpg",
     },   
     {
+      id: 15,
       name: "Mutton Korma",
       price: "₹290",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://mughaldarbar.in/upload/pro/product-featured-74.jpg",
     }   
   ],
   "South Indian": [
     {
+      id: 17,
       name: "Masala Dosa",
       price: "₹120",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa71IHGOIrZn61cbKemmBCu4vIBu8ws6NUg&s",
     },
     {
+      id: 18,
       name: "South Indian Masala Vada",
       price: "₹99",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://thumbs.dreamstime.com/b/vada-south-indian-food-isolated-transparent-background-369298162.jpg",
-    },    {
+    },
+    {
+      id: 19,
       name: "Masala Idli",
       price: "₹120",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_auto,w_750,f_auto/f_auto/Idli-phplscEhG",
     },    {
+      id: 20,
       name: "Poha Tradition Lunch",
       price: "₹150",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://www.holidify.com/images/cmsuploads/compressed/1024px-Sadhya_DSW_20200107182950.jpg",
     },    {
+      id: 21,
       name: "Paratha With Sambar",
       price: "₹32",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://images.moneycontrol.com/static-mcnews/2021/04/paratha_shutterstock_1641709639.jpg?impolicy=website&width=1600&height=900",
     },    
     {
+      id: 22,
       name: "Idli Sambar",
       price: "₹80",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbzAj_KH0XbCrSdtGWb2Osghwnb45WnQe5WA&s",
     },
     {
+      id: 23,
       name: "Dahi Vada",
       price: "₹180",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://static.toiimg.com/thumb/55432577.cms?imgsize=240828&width=800&height=800",
     },  
     {  
+      id: 24,
       name: "Thayir Vadai",
       price: "₹260",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://images.slurrp.com/prod/recipe_images/transcribe/breakfast/Thayir-Vadai.webp",
     }  
   ],
    "Chinese": [
     {
+      id: 25,
       name: "Hakka Noodles",
       price: "₹150",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHI6vHr6V8yiVoYNezh3ViC4ZcCD7U_0kuuw&s",
     },
     {
+      id: 26,
       name: "Spicy King Prawn",
       price: "₹150",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://aluna.uk.com/wp-content/uploads/2024/06/3-spicy-Kkng-prawn.jpg",
-    },    {
+    },
+    {
+      id: 27,
       name: "Veg Au Gratins",
       price: "₹149",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://cdn.shopify.com/s/files/1/0565/2568/4873/files/Veg_Au_Gratin_Vegetable_Baked_Dish_480x480.jpg?v=1769151792",
-    },    {
+    },
+    {
+      id: 28,
       name: "Chicken Continental",
       price: "₹129",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://www.tasteofhome.com/wp-content/uploads/2017/09/Chicken-Continental-for-Four_exps43085_TH1789930B04_07_1bC_RMS.jpg",
-    },    {
+    },   
+    {
+      id: 29,
       name: "Creamy Garlic Mushroom Chicken",
       price: "₹170",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://images.saymedia-content.com/.image/t_share/MTkyMTQ0ODE1NzQ2OTE3NzE0/10-easy-continental-dishes-you-can-cook-at-home.jpg",
     },    
     {
+      id: 30,
       name: "Manchurian",
       price: "₹170",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwlP7ovxUYJ_5aEbg65vQxy0AAaA3rO3xddg&s",
     },
     {
+      id: 31,
       name: "Steamed Momos(Non-Veg)",
       price: "₹130",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR9KvEnkyR7_CHbuFWOVW70qtwh_GLHV0OVA&s",
     }, 
     {
+      id: 32,
       name: "Dim Sum",
       price: "₹190",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, et!",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSESKddZru7oYoNE2Gd_X9By6bKulhdMesSTQ&s",
     },        
   ]
