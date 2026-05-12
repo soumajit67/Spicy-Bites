@@ -1,0 +1,162 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background: #cdcebb;
+    color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-logo span {
+  color: #000000;
+  background: #ddc80efb;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  margin-left: 0.2rem;
+}
+
+.nav-right i {
+    font-size: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.main {
+    max-width: 1100px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    flex-wrap: wrap;
+}
+
+.img {
+    flex: 1;
+    min-width: 300px;
+}
+
+.img img {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #ddd;
+}
+
+.product-details-box {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.product-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 22px;
+    color: green;
+    margin-bottom: 15px;
+}
+
+.product-description-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.product-description-data {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.product-details-action {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #fbff00;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product-details-action:hover {
+    background-color: #c5c50d;
+}
+
+#goToCartBtn {
+    background-color: rgb(243, 145, 53);
+    color: black;
+}
+
+#goToCartBtn:hover {
+    background-color: rgb(173, 120, 4);
+}
+
+
+
+
+@media (max-width: 640px) {
+  .nav-container {
+    padding: 1rem;
+  }
+  
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .nav-logo {
+    font-size: 1.5rem;
+  }
+  
+  .main {
+    padding: 0 1rem;
+  }
+  
+  .product-details-box {
+    padding: 1.5rem;
+  }
+  
+  .product-name {
+    font-size: 1.5rem;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+  }
+} 
+
+
