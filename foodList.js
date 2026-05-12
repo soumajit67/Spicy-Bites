@@ -5,13 +5,25 @@ function populateProducts() {
   const productList = document.getElementById('productList');
 
   const queryParams = new URLSearchParams(window.location.search);
-  const category = queryParams.get('category'); 
+  const queryParamsObject = Object.fromEntries(queryParams.entries());  
+  const category = queryParamsObject['category'];
 
-  const categoryItems = food[category];
+  let categoryItems = [];
+
+
+  
+      if(category) {
+          categoryItems = food[category];
+      } else {
+          categoryItems = Object.values(food).flat();
+      }
+     
 
 
   categoryItems.forEach((item) => {
     const productItem = document.createElement('a');
+    productItem.href = `product.html?product-id=${item.id}`;
+
     productItem.className = 'product-item';
 
     const productImage = document.createElement('div');
