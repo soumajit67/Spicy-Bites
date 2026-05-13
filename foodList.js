@@ -10,8 +10,6 @@ function populateProducts() {
 
   let categoryItems = [];
 
-
-  
       if(category) {
           categoryItems = food[category];
       } else {
