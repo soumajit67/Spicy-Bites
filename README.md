@@ -1,5 +1,6 @@
 Project Description: Multi-Category Food Ordering Website
 
+
 The proposed project is a responsive, user-friendly food ordering website that organizes its menu into three primary categories: Veg, Non-Veg, and regional or cuisine based sections including South Indian and Chinese. The main goal is to help users quickly discover meals based on dietary preference and cuisine type, while giving restaurants and cloud kitchens a clean platform to manage orders, menus, and delivery.
 
 1. Core Concept and Target Audience
