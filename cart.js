@@ -8,7 +8,6 @@ function populateCart() {
     
     cartProductsContainer.innerHTML = '';
     
-
     let subtotal = 0;
 
     cartItems.forEach((item, index) => {
