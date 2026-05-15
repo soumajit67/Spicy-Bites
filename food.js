@@ -1,6 +1,5 @@
 import {food} from './food_category.js'
 
-
 function foodCategories() {
     const categoryList = document.getElementById('categoryList');
     const categories = Object.keys(food);
