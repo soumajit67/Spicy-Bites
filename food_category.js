@@ -57,6 +57,8 @@ export const food = {
       image: "https://www.umami.recipes/api/image/recipes/Tc3VqCkMqD1ZhFgkNVw3/images/8N59Tyuz6qBUlgmL3HF0DX?w=3840&q=75",
     },    
   ],
+
+  
   "Non Veg": [
     {
       id :9,
@@ -114,6 +116,8 @@ export const food = {
       image: "https://mughaldarbar.in/upload/pro/product-featured-74.jpg",
     }   
   ],
+
+  
   "South Indian": [
     {
       id: 17,
@@ -170,6 +174,8 @@ export const food = {
       image: "https://images.slurrp.com/prod/recipe_images/transcribe/breakfast/Thayir-Vadai.webp",
     }  
   ],
+
+  
    "Chinese": [
     {
       id: 25,
