@@ -16,8 +16,6 @@ Detailed Dish Pages: Every item includes high quality images, description, ingre
 
 Cart and Checkout: The cart supports items from multiple categories and restaurants if delivery areas overlap. It shows packaging charges, GST, delivery fee, and coupon application. Payment options include UPI, cards, net banking, and cash on delivery. Live order tracking covers order received, preparing, out for delivery, and delivered.
 
-Restaurant and User Dashboards: Restaurants get a dashboard to manage menus by category, toggle item availability, set happy hour pricing, view daily sales, and accept or reject orders. Users can save addresses, reorder past meals, rate dishes, and mark favorite restaurants. A Wishlist lets them save Veg or Chinese items for later.
-
 Content and Engagement: The site features weekly blogs like Top 5 Veg South Indian Breakfasts in Siliguri or Chinese Combos Under 199. A Taste Quiz recommends Veg, Non-Veg, South Indian, or Chinese based on mood, budget, and time. Festive banners and coupon codes drive repeat orders.
 
 3. Technical Overview
