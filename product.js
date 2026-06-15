@@ -8,7 +8,6 @@ function populateProductDetails() {
     const productDescription = document.getElementById('product-description-data');
     const addToCartButton = document.getElementById('add-to-cart-button');
 
-
     
     const queryParams = new URLSearchParams(window.location.search);
     const queryParamsObject = Object.fromEntries(queryParams.entries());
