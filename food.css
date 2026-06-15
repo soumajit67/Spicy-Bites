@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    
 }
 
 .navbar {
@@ -44,12 +45,12 @@
 .categories {
     padding: 40px 20px;
     text-align: center;
-    background-color: #fff;
 }
 
 .categories h2 {
     margin-bottom: 30px;
     font-size: 28px;
+    color:#fff
 }
 
 .category-list {
@@ -84,7 +85,7 @@
 }
 
 .product-item {
-  background: #fff;
+  background: #f5f3f3;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -104,7 +105,7 @@
   width: 100%;
   height: 200px;
   overflow: hidden;
-  background: #e9ecef;
+  background: #000000;
 }
 
 .product-img img {
@@ -141,6 +142,7 @@
   font-weight: 700;
   color: #000000;
   margin-top: auto;
+  
 }
 
 @media (max-width: 1024px) {
