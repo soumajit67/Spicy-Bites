@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    
 }
 
 .navbar {
@@ -157,3 +158,5 @@
     font-size: 1.5rem;
   }
 } 
+
+
