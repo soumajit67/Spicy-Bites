@@ -1,70 +1,68 @@
 import { cartItems, saveCartItems } from "./cartStore.js";
 
 function populateCart() {
-    const cartProductsContainer = document.getElementById('cart-products');
-    const subtotalEl = document.getElementById('subtotal');
-    const discountEl = document.getElementById('discount');
-    const totalEl = document.getElementById('total');
-    
-    cartProductsContainer.innerHTML = '';
-    
+  const cartProductsContainer = document.getElementById("cart-products");
+  const subtotalEl = document.getElementById("subtotal");
+  const discountEl = document.getElementById("discount");
+  const totalEl = document.getElementById("total");
 
-    let subtotal = 0;
+  cartProductsContainer.innerHTML = "";
 
-    cartItems.forEach((item, index) => {
-        const cartItem = document.createElement('div');
-        cartItem.className = 'cart-item';
+  let subtotal = 0;
 
-        const productImage = document.createElement('img');
-        productImage.src = item.image;
-        productImage.alt = item.model;
+  cartItems.forEach((item, index) => {
+    const cartItem = document.createElement("div");
+    cartItem.className = "cart-item";
 
-        const details = document.createElement('div');
-        details.className = 'item-details';
+    const productImage = document.createElement("img");
+    productImage.src = item.image;
+    productImage.alt = item.model;
 
-        const productTitle = document.createElement('p');
-        productTitle.className = 'product-title';
-        productTitle.textContent = item.name;
+    const details = document.createElement("div");
+    details.className = "item-details";
 
-        const productDescription = document.createElement('p');
-        productDescription.className = 'product-description';
-        productDescription.textContent = item.description;
+    const productTitle = document.createElement("p");
+    productTitle.className = "product-title";
+    productTitle.textContent = item.name;
 
-        const productPrice = document.createElement('p');
-        productPrice.className = 'product-price';
-        productPrice.textContent = `Price: ${item.price}`;
-        
-        subtotal += parseFloat(item.price.toString().replace(/[^\d.]/g, "")) || 0;
+    const productDescription = document.createElement("p");
+    productDescription.className = "product-description";
+    productDescription.textContent = item.description;
 
+    const productPrice = document.createElement("p");
+    productPrice.className = "product-price";
+    productPrice.textContent = `Price: ${item.price}`;
 
-        const removeBtn = document.createElement('button');
-        removeBtn.className = 'remove-btn';
-        removeBtn.textContent = 'Remove';
-        removeBtn.onclick = () => {
-            cartItems.splice(index, 1);
-            saveCartItems();
-            populateCart();
-        };
+    subtotal += parseFloat(item.price.toString().replace(/[^\d.]/g, "")) || 0;
 
-        details.appendChild(productTitle);
-        details.appendChild(productDescription);
-        details.appendChild(productPrice);
+    const removeBtn = document.createElement("button");
+    removeBtn.className = "remove-btn";
+    removeBtn.textContent = "Remove";
+    removeBtn.onclick = () => {
+      cartItems.splice(index, 1);
+      saveCartItems();
+      populateCart();
+    };
 
-        cartItem.appendChild(productImage);
-        cartItem.appendChild(details);
-        cartItem.appendChild(removeBtn);
+    details.appendChild(productTitle);
+    details.appendChild(productDescription);
+    details.appendChild(productPrice);
 
-        cartProductsContainer.appendChild(cartItem);
-    });
-         
-        const discount = 0;
-        const total = subtotal - discount;
+    cartItem.appendChild(productImage);
+    cartItem.appendChild(details);
+    cartItem.appendChild(removeBtn);
 
+    cartProductsContainer.appendChild(cartItem);
+  });
 
-      subtotalEl.textContent = `₹${subtotal}`;
-      discountEl.textContent = `₹${discount}`;
-      totalEl.textContent = `₹${total}`;
+  // Calculate totals
+  const discount = 0; // Change if you have discounts
+  const total = subtotal - discount;
 
+  // Update UI
+  subtotalEl.textContent = `₹${subtotal}`;
+  discountEl.textContent = `₹${discount}`;
+  totalEl.textContent = `₹${total}`;
 }
 
-document.addEventListener('DOMContentLoaded', populateCart);
+document.addEventListener("DOMContentLoaded", populateCart);
