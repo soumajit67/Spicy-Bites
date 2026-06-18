@@ -60,6 +60,11 @@ function populateCart() {
         const discount = 0;
         const total = subtotal - discount;
 
+
+      subtotalEl.textContent = `₹${subtotal}`;
+      discountEl.textContent = `₹${discount}`;
+      totalEl.textContent = `₹${total}`;
+
 }
 
 document.addEventListener('DOMContentLoaded', populateCart);
