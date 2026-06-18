@@ -33,7 +33,9 @@ function populateCart() {
         const productPrice = document.createElement('p');
         productPrice.className = 'product-price';
         productPrice.textContent = `Price: ${item.price}`;
-        subtotal += Number(item.price);
+        
+        subtotal += parseFloat(item.price.toString().replace(/[^\d.]/g, "")) || 0;
+
 
         const removeBtn = document.createElement('button');
         removeBtn.className = 'remove-btn';
